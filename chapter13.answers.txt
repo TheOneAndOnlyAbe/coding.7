@@ -1,1 +1,35 @@
-hello
+/***************************************************************
+
+Your name: Abraham Moreno
+Question 2: 7,960MB of total memory. 6,572MB of free memory. It
+	    makes sense that there would be less free memory
+	    total memory because there are processes running.
+	    It wouldnt make sense for all memory to be free or
+	    weirder, have more free memory than total memory.
+
+Question 4: The free memory goes down by the amount specified,
+	    and used memory goes up by that same amount.
+	    If I do ./memory-user 20, free memory decreases by
+	    20mb and used memory increases by 20mb. Yes it
+	    matched my expectations. It wouldn't make sense for
+	    free memory and used memory to increase/decrease
+	    by random values nor would it make sense for them
+	    to remain the same values. However, this exact
+	    thing happens when I put in a large number like
+	    6400.
+
+Question 6: I just printed getpid().
+
+Question 7: There's a lot more going on than I expected. There
+	    are 24 things dividing the memory given to
+	    memory-user.
+
+Question 8: Again, the memory given to memory-user is divided
+	    among 24 entities, but they all add up CLOSE to
+	    the amount given. For example, I gave the program
+	    1000mb but only using 979.056mb. I also gave it
+	    320mb but its using only 314.996mb. I did not
+	    expect it to not use up all of that memory since
+	    it's allocating that memory in an array.
+
+***************************************************************/
